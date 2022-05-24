@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import styles from "./Body.module.css";
-import { Download } from "react-feather";
+import { Download } from "@aw-web-design/react-feather";
 import Editor from "../Editor/Editor";
 import Resume from "../Resume/Resume";
 import ReactToPrint from "react-to-print";

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import InputControl from "../InputControl/InputControl";
 import styles from "./Editor.module.css";
-import { X } from "react-feather";
+import { X } from "@aw-web-design/react-feather";
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 
 function Editor(props) {
