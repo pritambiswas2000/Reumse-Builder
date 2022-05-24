@@ -1,6 +1,6 @@
 import React, { forwardRef, useEffect, useRef, useState } from "react";
 import styles from "./Resume.module.css";
-import { AtSign, Linkedin, GitHub, Phone, Paperclip, Calendar, MapPin } from "react-feather";
+import { AtSign, Linkedin, GitHub, Phone, Paperclip, Calendar, MapPin } from "@aw-web-design/react-feather";
 
 const Resume = forwardRef((props, ref) => {
     const information = props.information;
