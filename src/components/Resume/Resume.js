@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { forwardRef, useEffect, useRef, useState } from "react";
 import styles from "./Resume.module.css";
 import { AtSign, Linkedin, GitHub, Phone, Paperclip, Calendar, MapPin } from "@aw-web-design/react-feather";
@@ -48,7 +49,7 @@ const Resume = forwardRef((props, ref) => {
                             }
                             {
                                 item.certificateLink ?
-                                <a className={styles.link} href={item.certificationLink}><Paperclip /> {item.certificateLink}</a> : <div />
+                                <a className={styles.link}><Paperclip /> {item.certificateLink}</a> : <div />
                             }
 
                             {

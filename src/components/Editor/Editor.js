@@ -481,6 +481,7 @@ function Editor(props) {
                 }));
                 break;
             }
+            default : break;
         }
     }
 

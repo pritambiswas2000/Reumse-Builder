@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import styles from "./Body.module.css";
 import { Download } from "@aw-web-design/react-feather";
 import Editor from "../Editor/Editor";
@@ -85,7 +85,7 @@ function Body() {
                 />
                 <Resume ref={resumeRef} information={resumeInformation} sections={sections} activeColor={activeColor} />
             </div>
-            <p className={styles.footer}>Made with 🖤 by Pritam Biswas</p>
+            <p className={styles.footer}>Made with <span role="img" aria-label="heart-emoji">🖤</span> by Pritam Biswas</p>
         </div>
     );
 }
